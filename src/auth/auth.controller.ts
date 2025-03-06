@@ -34,7 +34,7 @@ export class AuthController {
   @Get('me')
   async getProfile(@Request() req) {
     const user = await this.prisma.user.findUnique({
-      where: { id: req.user.userId },
+      where: { email: req.user.email },
     });
 
     return user;
