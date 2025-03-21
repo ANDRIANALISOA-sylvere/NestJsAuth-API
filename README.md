@@ -151,6 +151,7 @@ The API will run at * http://localhost:8000
 ## Technologies Used
 
 - **NestJS** - Framework
+- **PostgreSQL** - Database
 - **Prisma** - ORM for database
 - **Typescript** - Static typing
 - **JWT** - Authentication
