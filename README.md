@@ -160,7 +160,7 @@ The API will run at * http://localhost:8000
 - **JWT** - Authentication
 - **Google OAuth 2.0** - Social authentication
 
-**Contributions are welcome!** Feel free to open source issues or submit pull request. Made with :heart: by *[Joséphin Sylvère](https://josephin-sylvere.vercel.app)
+**Contributions are welcome!** Feel free to open source issues or submit pull request. Made with :heart: by [Joséphin Sylvère](https://josephin-sylvere.vercel.app)
 
 
 
