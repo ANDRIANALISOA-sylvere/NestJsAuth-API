@@ -149,7 +149,7 @@ The API will run at http://localhost:8000
 
 **Get** */api/auth/google/callback*
 
-- After the authenticatio, the API will return a JWT token
+- After the authentication, the API will return a JWT token
 
 ## Technologies Used
 
