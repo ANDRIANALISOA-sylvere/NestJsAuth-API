@@ -1,6 +1,6 @@
 # NestAuth-API :rocket:
 
-A complete authentication API built with **NestJS** , **Prisma**, and **Typescript**.
+A complete authentication API built with **NestJS** , **Postgresql** , **Prisma**, and **Typescript**.
 Supports **email/password authentication** and **Google OAuth 2.0**.
 
 ## 📌 Features
