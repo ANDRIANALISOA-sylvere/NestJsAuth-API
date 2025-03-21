@@ -76,6 +76,7 @@ The API will run at * http://localhost:8000
   "createdAt": "2025-03-21T15:04:41.438Z",
   "updatedAt": "2025-03-21T15:04:41.438Z"
 }
+```
 
 ### Login
 
@@ -94,7 +95,7 @@ The API will run at * http://localhost:8000
 {
     "access_token":"your_jwt_token"
 }
-
+```
 ### Get Current User
 
 **Get** */api/auth/me*
@@ -111,7 +112,7 @@ The API will run at * http://localhost:8000
   "createdAt": "2025-03-21T15:04:41.438Z",
   "updatedAt": "2025-03-21T15:04:41.438Z"
 }
-
+```
 ### Get all users (Admin only)
 
 **Get** */api/users*
@@ -120,6 +121,7 @@ The API will run at * http://localhost:8000
 - Requires **Authorization* : Bearer your_jwt_token
 
 **Response:**
+```json
 [{
     "id": "1621ebad-a9fd-44e1-b71c-01a8e40ab78d",
     "name": "John Doe",
@@ -135,6 +137,7 @@ The API will run at * http://localhost:8000
     "createdAt": "2025-03-21T13:11:51.355Z",
     "updatedAt": "2025-03-21T13:11:51.355Z"
 }]
+```
 
 ## Google OAuth 2.0 Authentication
 
