@@ -10,7 +10,7 @@ export class UserController {
   constructor(private prisma: PrismaService) {}
 
   @UseGuards(JwtAuthGuard, RolesGuard)
-  @Roles(Role.ADMIN, Role.USER)
+  @Roles(Role.ADMIN)
   @Get()
   getAllUser(@Request() req) {
     return this.prisma.user.findMany();
