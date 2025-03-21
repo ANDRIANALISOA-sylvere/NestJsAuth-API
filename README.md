@@ -18,8 +18,8 @@ Supports **email/password authentication** and **Google OAuth 2.0**.
 ### :one: Clone the repository
 
 ```sh
-git clone https://github.com/ANDRIANALISOA-sylvere/NestAuth-API.git
-cd NestAuth-API
+git clone https://github.com/ANDRIANALISOA-sylvere/NestJsAuth-API.git
+cd NestJsAuth-API
 ```
 
 ### :two: Install dependencies
@@ -28,7 +28,7 @@ npm install
 ```
 
 ### :three: Set up environment variables
-Create a .env file at the root of the project and add the following :
+Create a `.env` file at the root of the project and add the following :
 
 ```sh
 DATABASE_URL=your_database_url
@@ -48,7 +48,7 @@ npx prisma migrate dev --name init
 npm run start:dev
 ```
 
-The API will run at * http://localhost:8000
+The API will run at http://localhost:8000
 
 ## :key: Authentication Endpoints
 
@@ -66,7 +66,7 @@ The API will run at * http://localhost:8000
 }
 ```
 
-**Reponse:**
+**Response:**
 ```json
 {
   "id": "7ecc75b6-867c-4745-8c70-29235ac09c29",
@@ -90,7 +90,7 @@ The API will run at * http://localhost:8000
 }
 ```
 
-**Reponse:**
+**Response:**
 ```json
 {
     "access_token":"your_jwt_token"
@@ -100,9 +100,9 @@ The API will run at * http://localhost:8000
 
 **Get** */api/auth/me*
 
-- Requires **Authorization* : Bearer your_jwt_token
+- Requires **Authorization** : Bearer *your_jwt_token*
 
-**Reponse:**
+**Response:**
 ```json
 {
   "id": "7ecc75b6-867c-4745-8c70-29235ac09c29",
@@ -117,8 +117,8 @@ The API will run at * http://localhost:8000
 
 **Get** */api/users*
 
-- Requires ADMIN role
-- Requires **Authorization* : Bearer your_jwt_token
+- Requires **ADMIN role**
+- Requires **Authorization** : Bearer *your_jwt_token*
 
 **Response:**
 ```json
