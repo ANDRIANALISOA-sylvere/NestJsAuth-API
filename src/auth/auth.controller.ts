@@ -54,7 +54,7 @@ export class AuthController {
     //Redirige vers le frontend avec le token dans l'URL
     //res.redirect(`http://localhost:3000/auth/callback?token=${token}`)
 
-    //Redirige vers google for test in backend
+    //Redirige vers google for tester dans backend
     res.redirect(`https://www.google.com`);
   }
 }
