@@ -62,7 +62,7 @@ The API will run at http://localhost:8000
     "name":"John Doe",
     "email":"john@example.com",
     "password":"securepassword (must be longer than or equal to 6 characters)",
-    "role":"UER"
+    "role":"USER"
 }
 ```
 
